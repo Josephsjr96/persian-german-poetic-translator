@@ -9,8 +9,8 @@ This project was developed by Yousef Sanjari as part of a portfolio for the M.Sc
 
 
 
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/a25ec453-5c26-4c99-990f-9658e00300bc" />
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ec082473-a72b-4d0a-a712-77c54191e517" />
 
 Side-by-side translation of a Persian poem with comparison results in a pop-up window.
 Features
