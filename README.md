@@ -40,11 +40,10 @@ Poetry translation remains one of the most challenging tasks in NLP due to metap
 The collected data (human judgments, poetic features) forms the foundation for future benchmarks, fine-tuning, or publication — especially valuable for low-resource languages like Persian.
 
 
-
+<img width="1602" height="1039" alt="Screenshot 2025-12-19 225604" src="https://github.com/user-attachments/assets/e0c9bca3-c5c6-4b70-a010-d3b417d8cf40" />
+<img width="1602" height="1039" alt="Screenshot 2025-12-19 225656" src="https://github.com/user-attachments/assets/f04746c9-cad8-4fe5-aba5-006e89b3bd13" />
 <img width="1602" height="1039" alt="Screenshot 2025-12-19 225620" src="https://github.com/user-attachments/assets/0d0cc0a7-5c3e-46b6-a430-876813f577ea" />
 <img width="1602" height="1039" alt="Screenshot 2025-12-19 225640" src="https://github.com/user-attachments/assets/580db854-5197-40d1-9c2e-8313a1f5d80c" />
-<img width="1602" height="1039" alt="Screenshot 2025-12-19 225656" src="https://github.com/user-attachments/assets/f04746c9-cad8-4fe5-aba5-006e89b3bd13" />
-<img width="1602" height="1039" alt="Screenshot 2025-12-19 225604" src="https://github.com/user-attachments/assets/e0c9bca3-c5c6-4b70-a010-d3b417d8cf40" />
 
 ## Requirements
 
