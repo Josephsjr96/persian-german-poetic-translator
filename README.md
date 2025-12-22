@@ -6,7 +6,6 @@ This platform enables systematic evaluation of machine translation quality on po
 
 Developed by **Yousef Sanjari** as a major portfolio project for the **M.Sc. in Natural Language Processing** at Universität Trier.
 
-![Main Interface](screenshots/main_interface.png)  
 *Translation & Analysis tab with side-by-side outputs and metrics pop-up.*
 
 ## Key Features
