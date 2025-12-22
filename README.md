@@ -48,3 +48,34 @@ The collected data (human judgments, poetic features) forms the foundation for f
 
 ```bash
 pip install torch transformers sentence-transformers ttkbootstrap nltk syllables
+
+
+torch – PyTorch (for model inference; CPU version is sufficient)
+transformers – Hugging Face Transformers library (NLLB-200 and M2M100)
+sentence-transformers – For semantic similarity evaluation
+ttkbootstrap – Modern themed GUI (dark "superhero" theme)
+nltk – For BLEU score calculation (downloads 'punkt' and 'punkt_tab' automatically)
+syllables – For poetic meter and syllable analysis
+
+Hardware Requirements
+
+RAM – 16 GB recommended (8 GB minimum – large models load into memory)
+Disk Space – Approximately 6 GB free on first run
+(Models are downloaded and cached: NLLB-200 ~2.5 GB, M2M100 ~2 GB, plus safetensors conversion, embeddings, and SQLite database)
+CPU – Modern multi-core processor (e.g., Ryzen 5 or Intel i5/i7) – no GPU required
+(First run loading may take 5–15 minutes on CPU; subsequent runs: seconds)
+
+Internet Connection (First Run Only)
+
+Required for downloading models (~5–6 GB total) and small NLTK data
+After first run, the application works completely offline
+
+Additional Notes
+
+On first launch, the app downloads and converts models — be patient.
+Models are cached locally (in ~/.cache/huggingface/ or C:\Users\<YourName>\.cache\huggingface\ on Windows).
+No API keys, registration, or external services required.
+Database (poetic_translator_research.db) is created automatically in the project folder.
+
+With these requirements met, the application will run smoothly and provide high-quality translations, poetic analysis, human evaluation, and research analytics.
+Enjoy exploring Persian and German poetry with cutting-edge NLP tools! 🎓
