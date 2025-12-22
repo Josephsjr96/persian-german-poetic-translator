@@ -1,65 +1,52 @@
-Persian ↔ German Poetic Translator
-A desktop application for translating Persian (Farsi) poetry to German (and vice versa) using two state-of-the-art multilingual models: NLLB-200 (Meta 2022) and M2M100 (Facebook 2020). The app provides side-by-side translations, automatic evaluation with BLEU score and semantic similarity, a bidirectional switch, and results in an elegant pop-up window.
-This project was developed by Yousef Sanjari as part of a portfolio for the M.Sc. in Natural Language Processing at Universität Trier, demonstrating hands-on skills in multilingual machine translation, model comparison, evaluation metrics, and user interface design.
+# Persian ↔ German Poetic Translator - Research Platform
+
+A **research-grade desktop application** for bidirectional translation and in-depth analysis of Persian and German literary/poetic text using **NLLB-200** (Meta 2022) and **M2M100** (Facebook 2020).
+
+This platform enables systematic evaluation of machine translation quality on poetic text through automatic metrics, poetic feature extraction, structured human evaluation, persistent data storage, research collaboration tools, and an analytics dashboard.
+
+Developed by **Yousef Sanjari** as a major portfolio project for the **M.Sc. in Natural Language Processing** at Universität Trier.
+
+![Main Interface](screenshots/main_interface.png)  
+*Translation & Analysis tab with side-by-side outputs and metrics pop-up.*
+
+## Key Features
+
+- **Bidirectional translation** (Persian ↔ German)
+- **Side-by-side model comparison** with real-time output
+- **Automatic evaluation metrics**:
+  - BLEU score
+  - Semantic similarity
+  - Word count and compression analysis
+- **Poetic feature extraction** (rhyme, meter, metaphor detection)
+- **Structured human evaluation**:
+  - Ratings for fluency, poetic preservation, cultural accuracy
+  - Model preference and detailed comments
+- **Multi-tab research interface**:
+  - Translation & Analysis
+  - Human Evaluation
+  - Research Collaboration (with project management and discussion)
+  - Analytics & Export (model performance, human ratings, data export)
+- **Persistent SQLite database** for translations, metrics, and human judgments
+- **Data export** (JSON, CSV) and research report generation
+- **Modern dark UI** with ttkbootstrap
+
+## Research Value
+
+Poetry translation remains one of the most challenging tasks in NLP due to metaphor, rhythm, cultural nuance, and stylistic fidelity. This platform addresses core research questions:
+- How well do SOTA models preserve poetic structure and meaning?
+- Do automatic metrics correlate with human judgment of poetic quality?
+- What are the limitations of older vs newer multilingual models on literary text?
+
+The collected data (human judgments, poetic features) forms the foundation for future benchmarks, fine-tuning, or publication — especially valuable for low-resource languages like Persian.
 
 
 
+<img width="1602" height="1039" alt="Screenshot 2025-12-19 225620" src="https://github.com/user-attachments/assets/0d0cc0a7-5c3e-46b6-a430-876813f577ea" />
+<img width="1602" height="1039" alt="Screenshot 2025-12-19 225640" src="https://github.com/user-attachments/assets/580db854-5197-40d1-9c2e-8313a1f5d80c" />
+<img width="1602" height="1039" alt="Screenshot 2025-12-19 225656" src="https://github.com/user-attachments/assets/f04746c9-cad8-4fe5-aba5-006e89b3bd13" />
+<img width="1602" height="1039" alt="Screenshot 2025-12-19 225604" src="https://github.com/user-attachments/assets/e0c9bca3-c5c6-4b70-a010-d3b417d8cf40" />
 
+## Requirements
 
-
-
-
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/a25ec453-5c26-4c99-990f-9658e00300bc" />
-
-
-Side-by-side translation of a Persian poem with comparison results in a pop-up window.
-Features
-
-Bidirectional translation (Persian → German or German → Persian)
-Side-by-side comparison of NLLB-200 (recommended) and M2M100
-Automatic evaluation:
-BLEU score (surface-level wording overlap)
-Semantic similarity (meaning and poetic feel)
-
-Beautiful pop-up window for comparison results
-Modern dark theme with ttkbootstrap ("superhero")
-Fully offline after first run (models cached locally)
-No GPU required (runs on CPU)
-
-Requirements
-
-Python 3.10+
-Libraries:Bashpip install torch transformers sentence-transformers ttkbootstrap nltk
-Disk space: ~5-6 GB on first run (large models downloaded and cached)
-RAM: 16 GB recommended
-
-How to Run
-
-Clone the repository:Bashgit clone https://github.com/Josephsjr96/persian-german-poetic-translator.git
-cd persian-german-poetic-translator
-Install dependencies:Bashpip install torch transformers sentence-transformers ttkbootstrap nltk
-Run the app:Bashpython persian_german_translator.py
-On first run: Models download and convert (~5 GB, may take time).
-Subsequent runs: Fast startup.
-Paste a poem, choose direction if desired, and click "Translate & Compare Models".
-Results appear in output boxes; comparison details in a pop-up window.
-
-Tip: Try verses from Hafez, Saadi, or Rumi for the best demonstration of poetic handling.
-Technology Stack
-
-Python
-Hugging Face Transformers (NLLB-200, M2M100)
-Sentence-Transformers (semantic similarity)
-Tkinter + ttkbootstrap (GUI)
-NLTK (BLEU score)
-
-Future Potential
-This application has strong potential to evolve into a valuable tool for researchers, students, and enthusiasts in Natural Language Processing and literary studies:
-
-Human evaluation mode: Add rating sliders to collect judgments on fluency, fidelity, and poetic quality → build a Persian-German literary MT benchmark.
-Post-editing interface: Allow users to correct translations → crowdsource high-quality parallel data for fine-tuning.
-Style control: Experiment with prompts or parameters for "more formal" or "more poetic" outputs.
-Educational tool: Add explanations of tokenization, beam search, and metric limitations.
-Expansion: Support Arabic, Urdu, or Turkish → German (poetically rich, low-resource pairs).
-
-With community contributions, it could become a reference platform for studying machine translation of poetry — an area where current systems still face significant challenges.
+```bash
+pip install torch transformers sentence-transformers ttkbootstrap nltk syllables
