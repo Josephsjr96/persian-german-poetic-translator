@@ -3,8 +3,6 @@
 A **research-grade desktop application** for bidirectional translation and in-depth analysis of Persian and German literary/poetic text using **NLLB-200** and **M2M100**.
 
 This platform enables systematic evaluation of machine translation quality on poetic text through automatic metrics, poetic feature extraction, structured human evaluation, persistent data storage, research collaboration tools, and an analytics dashboard.
-
-<img width="1602" height="1039" alt="Screenshot 2025-12-19 225604" src="https://github.com/user-attachments/assets/e0c9bca3-c5c6-4b70-a010-d3b417d8cf40" />
 *Translation & Analysis tab with side-by-side outputs and metrics pop-up.*
 
 ## Key Features
@@ -63,7 +61,7 @@ This project is more than a tool; it's a foundation for a broader research progr
 This work tackles a fundamental question: **Can computational systems learn to understand and preserve what makes poetry human?** By quantifying subtle artistic features, we aim to build bridges not just between languages, but between computational precision and humanistic subtlety. The ultimate goal is not to replace human translators but to create **augmented intelligence** tools that deepen cross-cultural understanding and empower human creativity.
 
 
-
+<img width="1602" height="1039" alt="Screenshot 2025-12-19 225604" src="https://github.com/user-attachments/assets/e0c9bca3-c5c6-4b70-a010-d3b417d8cf40" />
 <img width="1602" height="1039" alt="Screenshot 2025-12-19 225604" src="https://github.com/user-attachments/assets/e0c9bca3-c5c6-4b70-a010-d3b417d8cf40" />
 <img width="1602" height="1039" alt="Screenshot 2025-12-19 225656" src="https://github.com/user-attachments/assets/f04746c9-cad8-4fe5-aba5-006e89b3bd13" />
 <img width="1602" height="1039" alt="Screenshot 2025-12-19 225620" src="https://github.com/user-attachments/assets/0d0cc0a7-5c3e-46b6-a430-876813f577ea" />
